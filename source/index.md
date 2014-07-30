@@ -21,7 +21,6 @@ simple one to get you started.
 
 ```toml
 [package]
-
 name = "hello-world"
 version = "0.1.0"
 authors = [ "wycats@example.com" ]
@@ -52,13 +51,11 @@ To depend on a library, add it to your `Cargo.toml`.
 
 ```toml
 [package]
-
 name = "hello-world"
 version = "0.1.0"
 authors = [ "wycats@example.com" ]
 
 [dependencies.color]
-
 git = "https://github.com/bjz/color-rs.git"
 ```
 
